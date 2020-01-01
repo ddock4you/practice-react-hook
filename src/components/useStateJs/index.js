@@ -1,12 +1,12 @@
 import React from "react";
-import useStateHook from "./useStateHook";
+import UseStateHook from "./UseStateHook";
 
-const useStateJs = () => {
+const UseStateJs = () => {
     return (
         <>
-            <useStateHook />
+            <UseStateHook />
         </>
     );
 };
 
-export default useStateJs;
+export default UseStateJs;

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import useStateJs from "./components/useStateJs";
+import UseStateJs from "./components/UseStateJs";
 import Header from "./components/Header";
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
         <Router>
             <Header />
             <Switch>
-                <Route path="/" exact component={useStateJs} />
+                <Route path="/" exact component={UseStateJs} />
             </Switch>
         </Router>
     );
