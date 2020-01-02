@@ -9,7 +9,7 @@ const Header = () => {
                     <Link to="/">useState</Link>
                 </li>
                 <li>
-                    <Link to="/ha">ha</Link>
+                    <Link to="/use_tab">useTabs</Link>
                 </li>
                 <li>
                     <Link to="/hahaha">haha</Link>

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import UseStateJs from "./components/UseStateJs";
 import Header from "./components/Header";
+import UseTabHook from "./components/UseStateJs/UseTabsHook";
 
 const App = () => {
     return (
@@ -9,6 +10,7 @@ const App = () => {
             <Header />
             <Switch>
                 <Route path="/" exact component={UseStateJs} />
+                <Route path="/use_tab" exact component={UseTabHook} />
             </Switch>
         </Router>
     );
