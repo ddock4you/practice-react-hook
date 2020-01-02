@@ -53,7 +53,7 @@ export const UseInputHook2 = () => {
 
     return (
         <div>
-            <h1>useInput</h1>
+            <h1>useInput2 (유효성 검사)</h1>
             <input
                 placeholder="Name"
                 {...name} /*value={name.value} onChange={name.onChange}*/
