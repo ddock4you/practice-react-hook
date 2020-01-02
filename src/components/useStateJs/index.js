@@ -1,13 +1,16 @@
 import React from "react";
 import UseStateHook from "./UseStateHook";
 // import AglyApp from "./UseStateHook";
-import UseInputHook from "./UseInputHook";
+import { UseInputHook1, UseInputHook2 } from "./UseInputHook";
+// import UseInput2Hook from "./UseInputHook";
 
 const UseStateJs = () => {
     return (
         <>
             <UseStateHook />
-            <UseInputHook />
+            <UseInputHook1 />
+            <UseInputHook2 />
+            {/* <UseInput2Hook /> */}
             {/* <AglyApp /> */}
         </>
     );
