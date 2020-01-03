@@ -10,7 +10,7 @@ const content = [
         content: "I' m the content of the Section 2"
     }
 ];
-
+//
 const useTabs = (initialTab, allTabs) => {
     const [currentIndex, setCurrentIndex] = useState(initialTab);
     if (!allTabs || !Array.isArray(allTabs)) {
