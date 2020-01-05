@@ -14,7 +14,7 @@ const UseStateHook = () => {
     );
 };
 
-// 기존의 class 컴포넌트로 작성 시
+/// 기존의 class 컴포넌트로 작성 시
 // export class AglyApp extends React.Component {
 //     state = {
 //         item: 1
