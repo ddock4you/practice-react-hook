@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import UseStateJs from "./components/UseStateJs";
 import Header from "./components/Header";
 import UseTabHook from "./components/UseStateJs/UseTabsHook";
+import UseEffectHook from "./components/UseEffectJs/UseEffectHook";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Switch>
                 <Route path="/" exact component={UseStateJs} />
                 <Route path="/use_tab" exact component={UseTabHook} />
+                <Route path="/use_effect" exact component={UseEffectHook} />
             </Switch>
         </Router>
     );
