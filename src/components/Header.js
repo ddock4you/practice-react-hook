@@ -25,6 +25,12 @@ const Header = () => {
                         <li>
                             <Link to="use_click">useClick</Link>
                         </li>
+                        <li>
+                            <Link to="use_confirm">useConfirm</Link>
+                        </li>
+                        <li>
+                            <Link to="use_prevent_leave">usePreventLeave</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>
