@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import UseTabHook from "./components/UseStateJs/UseTabsHook";
 import UseEffectHook from "./components/UseEffectJs/UseEffectHook";
 import UseTitleHook from "./components/UseEffectJs/UseTitleHook";
+import UseClickHook from "./components/UseEffectJs/UseClickHook";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path="/use_tab" exact component={UseTabHook} />
                 <Route path="/use_effect" exact component={UseEffectHook} />
                 <Route path="/use_title" exact component={UseTitleHook} />
+                <Route path="/use_click" exact component={UseClickHook} />
             </Switch>
         </Router>
     );
