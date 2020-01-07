@@ -37,6 +37,9 @@ const Header = () => {
                         <li>
                             <Link to="use_fadein">useFadeIn</Link>
                         </li>
+                        <li>
+                            <Link to="use_network">useNetwork</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>
