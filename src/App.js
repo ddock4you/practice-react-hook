@@ -9,6 +9,7 @@ import UseClickHook from "./components/UseEffectJs/UseClickHook";
 import UseConfirmHook from "./components/UseEffectJs/UseConfirmHook";
 import UsePreventLeaveHook from "./components/UseEffectJs/UsePreventLeaveHook";
 import UseBeforeLeaveHook from "./components/UseEffectJs/UseBeforeLeaveHook";
+import UseFadeInHook from "./components/UseEffectJs/UseFadeInHook";
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const App = () => {
                     exact
                     component={UseBeforeLeaveHook}
                 />
+                <Route path="/use_fadein" exact component={UseFadeInHook} />
             </Switch>
         </Router>
     );
