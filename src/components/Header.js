@@ -18,7 +18,11 @@ const Header = () => {
                 </li>
                 <li>
                     <Link to="use_effect">useEffect</Link>
-                    <ul></ul>
+                    <ul>
+                        <li>
+                            <Link to="use_title">useTitle</Link>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </>
