@@ -31,6 +31,9 @@ const Header = () => {
                         <li>
                             <Link to="use_prevent_leave">usePreventLeave</Link>
                         </li>
+                        <li>
+                            <Link to="use_Before_leave">useBeforeLeave</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>

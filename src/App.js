@@ -8,6 +8,7 @@ import UseTitleHook from "./components/UseEffectJs/UseTitleHook";
 import UseClickHook from "./components/UseEffectJs/UseClickHook";
 import UseConfirmHook from "./components/UseEffectJs/UseConfirmHook";
 import UsePreventLeaveHook from "./components/UseEffectJs/UsePreventLeaveHook";
+import UseBeforeLeaveHook from "./components/UseEffectJs/UseBeforeLeaveHook";
 
 const App = () => {
     return (
@@ -24,6 +25,11 @@ const App = () => {
                     path="/use_prevent_leave"
                     exact
                     component={UsePreventLeaveHook}
+                />
+                <Route
+                    path="/use_before_leave"
+                    exact
+                    component={UseBeforeLeaveHook}
                 />
             </Switch>
         </Router>
