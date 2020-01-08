@@ -40,6 +40,9 @@ const Header = () => {
                         <li>
                             <Link to="use_network">useNetwork</Link>
                         </li>
+                        <li>
+                            <Link to="use_scroll">useScroll</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>
