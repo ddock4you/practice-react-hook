@@ -12,6 +12,7 @@ import UseBeforeLeaveHook from "./components/UseEffectJs/UseBeforeLeaveHook";
 import UseFadeInHook from "./components/UseEffectJs/UseFadeInHook";
 import UseNetworkHook from "./components/UseEffectJs/UseNetworkHook";
 import UseScrollHook from "./components/UseEffectJs/UseScrollHook";
+import UseFullScreenHook from "./components/UseEffectJs/UseFullScreenHook";
 
 const App = () => {
     return (
@@ -37,6 +38,11 @@ const App = () => {
                 <Route path="/use_fadein" exact component={UseFadeInHook} />
                 <Route path="/use_network" exact component={UseNetworkHook} />
                 <Route path="/use_scroll" exact component={UseScrollHook} />
+                <Route
+                    path="/use_fullscreen"
+                    exact
+                    component={UseFullScreenHook}
+                />
             </Switch>
         </Router>
     );

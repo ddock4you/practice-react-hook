@@ -43,6 +43,9 @@ const Header = () => {
                         <li>
                             <Link to="use_scroll">useScroll</Link>
                         </li>
+                        <li>
+                            <Link to="use_fullscreen">useFullScreen</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>
