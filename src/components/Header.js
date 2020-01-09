@@ -46,6 +46,9 @@ const Header = () => {
                         <li>
                             <Link to="use_fullscreen">useFullScreen</Link>
                         </li>
+                        <li>
+                            <Link to="use_notification">useNotification</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>

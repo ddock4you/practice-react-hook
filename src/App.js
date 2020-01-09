@@ -13,6 +13,7 @@ import UseFadeInHook from "./components/UseEffectJs/UseFadeInHook";
 import UseNetworkHook from "./components/UseEffectJs/UseNetworkHook";
 import UseScrollHook from "./components/UseEffectJs/UseScrollHook";
 import UseFullScreenHook from "./components/UseEffectJs/UseFullScreenHook";
+import UseNotificationHook from "./components/UseEffectJs/UseNotificationHook";
 
 const App = () => {
     return (
@@ -42,6 +43,11 @@ const App = () => {
                     path="/use_fullscreen"
                     exact
                     component={UseFullScreenHook}
+                />
+                <Route
+                    path="/use_notification"
+                    exact
+                    component={UseNotificationHook}
                 />
             </Switch>
         </Router>
