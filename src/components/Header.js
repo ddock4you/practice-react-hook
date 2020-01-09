@@ -49,6 +49,9 @@ const Header = () => {
                         <li>
                             <Link to="use_notification">useNotification</Link>
                         </li>
+                        <li>
+                            <Link to="use_axios">useAxios</Link>
+                        </li>
                     </ul>
                 </li>
             </ul>

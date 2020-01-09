@@ -14,6 +14,7 @@ import UseNetworkHook from "./components/UseEffectJs/UseNetworkHook";
 import UseScrollHook from "./components/UseEffectJs/UseScrollHook";
 import UseFullScreenHook from "./components/UseEffectJs/UseFullScreenHook";
 import UseNotificationHook from "./components/UseEffectJs/UseNotificationHook";
+import UseAxiosHook from "./components/UseEffectJs/UseAxiosHook";
 
 const App = () => {
     return (
@@ -49,6 +50,7 @@ const App = () => {
                     exact
                     component={UseNotificationHook}
                 />
+                <Route path="/use_axios" exact component={UseAxiosHook} />
             </Switch>
         </Router>
     );
